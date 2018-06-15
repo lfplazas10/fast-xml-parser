@@ -83,11 +83,14 @@ if(fastXmlParser.validate(xmlData)=== true){//optional
 	var jsonObj = fastXmlParser.parse(xmlData,options);
 }
 
+
+
 //Intermediate obj
 var tObj = fastXmlParser.getTraversalObj(xmlData,options);
 var jsonObj = fastXmlParser.convertToJson(tObj,options);
 
 ```
+#### Note: [he](https://www.npmjs.com/package/he) library is used in this example
 
 ### XML to Nimn
 ```js

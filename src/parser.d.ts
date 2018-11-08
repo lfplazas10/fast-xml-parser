@@ -12,6 +12,7 @@ type X2jOptions = {
   cdataTagName: false | string;
   cdataPositionChar: string;
   localeRange:  string;
+  parseTrueNumberOnly: boolean;
   tagValueProcessor: (tagValue: string) => string;
   attrValueProcessor: (attrValue: string) => string;
 };
@@ -57,7 +58,10 @@ export function validate(
   xmlData: string,
   options?: { allowBooleanAttributes?: boolean }
 ): true | ValidationError;
-// export j2xParser ???
+export class j2xParser {
+  constructor(options: J2xOptionsOptional);
+  parse(options: any): any;
+}
 export function parseToNimn(
   xmlData: string,
   schema: any,

@@ -1,3 +1,20 @@
+3.12.4 / 2018-09-12
+  * Fix: include tasks in npm package
+3.12.3 / 2018-09-12
+  * Fix CLI issue raised in last PR
+3.12.2 / 2018-09-11
+  * Fix formatting for JSON to XML output
+  * Migrate to webpack (PR merged)
+  * fix cli (PR merged)
+3.12.0 / 2018-08-06
+  * Support hexadecimal values
+  * Support true number parsing 
+3.11.2 / 2018-07-23
+  * Update Demo for more options
+  * Update license information
+  * Update readme for formatting, users, and spelling mistakes
+  * Add missing typescript definition for j2xParser
+  * refactoring: change filenames
 3.11.1 / 2018-06-05
   * fix #93: read the text after self closing tag
 3.11.0 / 2018-05-20
